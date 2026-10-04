@@ -44,7 +44,7 @@
     }
 
     &:checked {
-        background-color: #05f238;
+        background-color: #02d12f;
         border-color: var(--color-dark-2);
 
         & + .todo-item__label {
