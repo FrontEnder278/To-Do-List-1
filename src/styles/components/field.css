@@ -46,5 +46,9 @@
         background-position: calc(100% - var(--fieldInputPaddingX)) 50%;
         background-size: var(--fieldSearchInputIconSize);
         background-repeat: no-repeat;
+
+        &:not(:placeholder-shown) {
+            background-image: none;
+        }
     }
 }
